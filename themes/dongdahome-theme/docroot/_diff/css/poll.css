@@ -1,0 +1,8 @@
+.aui .portlet-polls-display label {
+	font-size: 12px;
+}
+
+.aui .portlet-polls-display .table,
+.aui .portlet-polls-display form {
+	margin-bottom: 0;
+}

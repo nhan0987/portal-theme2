@@ -1,0 +1,328 @@
+#dongda > nav {
+	min-height: 45px;
+	background-color: #0474b5;
+	margin-bottom: 0;
+}
+#dongda > nav .navbar-inner {
+	background: transparent none;
+	border: 0;
+}
+#dongda > nav li {
+	position: relative;
+}
+#dongda > nav li a {
+	display: block;
+	padding: 0 16px;
+	color: white !important;
+	font-family: 'Roboto Bold';
+	font-size: 16px;
+	line-height: 45px;
+	text-shadow: none;
+}
+#dongda > nav li:hover a {
+	background-color: #ed1c24;
+}
+#dongda > nav li.selected a {
+	background-color: #ed1c24;
+	padding: 2px 20px 3px;
+}
+#dongda > nav li.selected:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: -3px;
+	-ms-transform: rotate(-315deg);
+	-webkit-transform: rotate(-315deg);
+	transform: rotate(-315deg);
+	width: 0;
+	height: 0;
+	border-top: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+	border-right: 4px solid #393939;
+}
+#dongda .aui .navbar .nav>li>a{
+	padding: 0px !important;
+}
+#dongda .navbar .nav>li>ul>li{
+	
+	display: none !important;
+}
+
+.aui .navbar-inner{
+	padding: 0px !important;
+}
+.aui .navbar{
+	margin-bottom: 0px !important;
+}
+nav .navbar-inner .container{
+	background: url(../images/custom/bg_menu.jpg) ;
+}
+@media (max-width: 999px) {
+	
+	#dongda .navbar .btn-navbar {
+		margin: 5px auto;
+	    width:100%;
+	    display: inherit;
+	    background: transparent;
+	    box-shadow: none;
+	    border-radius: 5px;
+	    border: 1px solid white;
+	    padding: 5px 10px;
+	}
+	#dongda .navbar .btn-navbar span {
+		margin: 4px auto;
+		color: white;
+	    box-shadow: none;
+	}
+	#dongda .navbar .nav li i:after {
+	    content: "";
+	    position: absolute;
+	    width: 600%;
+	    top: -100%;
+	    left: -400%;
+	    height: 300%;
+	    cursor: pointer;
+	}
+	#dongda .navbar ul li {
+		border-top: 1px solid #66caf4;
+		width: 100%
+	}
+	#dongda .navbar ul li a {
+		padding: 0 15px;
+		line-height: 46px;
+		position: relative;
+	}
+	#dongda .navbar ul li > ul li {
+		margin: 0;
+	}
+	
+}
+
+
+
+.dongda633 .portlet-layout #column-2{
+	width: 23.5%;
+	margin:0px 0.5% 0 0 !important;
+}
+
+.dongda633 .portlet-layout #column-1 {
+	width: 52%;
+	margin-right:0.5%;
+	margin-left:0px !important;
+	
+}
+.dongda633 .portlet-layout #column-3{
+	width: 23.5%;
+	margin-left:0px;
+}
+@media (min-width: 768px){
+	
+	.dongda633 #column-1 , .dongda633 #column-2 {
+		position:relative
+	
+	}
+	.dongda633 #column-1 {
+	
+		left:24%;
+	}
+	
+	.dongda633 #column-2 {
+	
+		left:-53%;
+	}
+}
+
+@media (max-width: 767px) {
+	.dongda633 #column-1{
+		width: 100% !important;
+	}
+	.dongda633 #column-2{
+		width: 100% !important;
+	}
+	.dongda633 #column-3{
+		width: 100% !important;
+	}
+	.dongda633 .portlet-content{
+	    width: 100% !important;
+	}
+	.dongda633 .jssort01 > div > div{
+	width: 32% !important;
+	}
+#menu > li > ul, #menu > li i {display:none}
+
+
+.banner {
+	height: 110px;
+	background: url("../images/BG_ima DD.jpg") no-repeat left bottom;
+	display: block;
+	width: 100%;
+	background-size: 100% 100%;
+}
+.banner2{
+	height: 65px;
+    margin-top: -85px;
+	background: url("../images/logo DD.png") no-repeat left bottom;
+	display: block;
+	width: 100%;
+	background-size: 100% 100%;
+	
+}
+.hienthibanner{
+	height: 110px;
+}
+
+	
+.news-wrapper .news-bt ul.nav-tabs .active a,
+.news-wrapper .news-bt ul.nav-tabs a:focus,
+.news-wrapper .news-bt ul.nav-tabs a:active {
+	font-size: 11px;
+	padding-left: 5px;
+}
+.news-wrapper .news-bt ul.nav-tabs li.active{
+	background: none;
+}
+.news-wrapper .news-bt ul.nav-tabs a {
+	font-size: 11px;
+	padding-left: 5px;
+}
+
+	 .portlet-content,  .portlet-minimized .portlet-content-container {
+	padding: 0 !important;
+	}
+	
+	 .news_slider_slides3 {
+    position: relative; top:10px; width:100%; height: 485px !important; overflow: hidden;
+	}
+
+	 .news_slider_slides {
+    position: absolute; left: 0px; top: 0px; width: 100%; height: 320px; overflow: hidden;
+	}
+	
+	 .dongda633  #column-1 .portlet-borderless.html-portlet img{
+		width: 100%;
+	}
+	.dongda633 #column-3 .portlet-borderless.html-portlet img{
+		width: 100%;
+		height: 65px;
+	}
+	.dongda633 #column-3 .html-portlet img{
+		width: 100%
+	}
+	
+	
+	 .nav-line .l2 {
+		width: 100% !important;
+	}
+	
+	.dongda633 .nav-line .l1 { 
+	display: none !important;
+	 }
+	 
+	 
+	.dongda633 .portal-newspublisher-portlet .slider_wrapper{
+	 
+	 height: 330px;
+	 }
+	 
+	.dongda633 .jssort01{
+	 display: none;
+	 }
+}
+
+@media (min-width: 990px) {
+	#dongda .container-fluid{
+		width: 990px !important;
+	}
+	#dongda .container{
+		width: 970px !important;
+	}
+	 .news_slider_slides3 {
+    position: relative; top:10px; width: 480px; height: 485px; overflow: hidden;
+	}
+
+	 .news_slider_slides {
+    position: absolute; left: 0px; top: 0px; width: 480px; height: 320px; overflow: hidden;
+	}
+}
+
+@media (min-width: 769px) and (max-width: 999px) {
+	.dongda633 #column-1{
+	width: 100% !important;
+	left:0 !important;
+	}
+	.dongda633 #column-2{
+	width: 49% !important;
+	margin-right: 1%;
+	left:0 !important;
+	}
+	.dongda633 #column-3{
+	width: 49% !important;
+	left:0 !important;
+	
+	}
+	
+	.dongda633 .nav-line .l2 {
+		width: 100% !important;
+	}
+	.dongda633 .news_slider_slides3 {
+    position: relative; top:10px; width:100%; height: 485px !important; overflow: hidden;
+	}
+
+	.dongda633 .news_slider_slides {
+    position: absolute; left: 0px; top: 0px; width: 100%; height: 320px; overflow: hidden;
+	}
+	    .dongda633 #column-1 .portlet-borderless.html-portlet img{
+		width: 50%;
+	}
+
+	.dongda633 #column-3 .portlet-borderless.html-portlet img{
+		width: 100%
+	}
+	.dongda633 #column-1 .slider_wrapper > div, 
+	.dongda633 #column-1 .slider_wrapper > div > div, 
+	.dongda633 #column-1 .slider_wrapper > div > div > div, 
+	.dongda633 #column-1 .slider_wrapper > div > div > div > div {
+	width: 100% !important;
+}
+}
+
+
+
+@media (max-width: 767px){
+	
+	.dongda8_4 #column-1{
+		width: 100% !important;
+	}
+	.dongda8_4 #column-2{
+		display: none;
+	}
+	.dongda8_4 .portlet-content{
+	    width: 100% !important;
+	    text-align: justify;
+	}
+	.dongda8_4 .asset-full-content{
+	padding: 10px;
+	}
+
+	.dongda8_4 .related_asset{
+	    padding: 10px;
+	}
+	.dongda8_4 .related_asset{
+	    padding: 10px;
+	}
+	.dongda8_4 .related_asset{
+	    padding: 10px;
+	}
+
+
+	.dongda8_4 .asset-full-content-title{
+	    padding: 10px;
+	}
+	.dongda8_4 .block_timer{
+	    padding: 10px;
+	}
+	.dongda8_4 .nav-line .l2 {
+		width: 100% !important;
+	}
+	
+}

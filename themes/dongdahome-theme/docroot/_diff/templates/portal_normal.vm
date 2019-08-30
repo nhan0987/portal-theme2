@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+#parse ($init)
+
+<html class="$root_css_class" dir="#language ("lang.dir")" lang="$w3c_language_id">
+
+<head>
+	<title>$the_title - $site_name</title>
+
+	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
+	
+
+	$theme.include($top_head_include)
+
+
+
+</head>
+
+<body class="$css_class">
+
+$theme.include($body_top_include)
+
+#if ($is_signed_in)
+	#dockbar()
+#end
+<div id="dongda">
+<div class="page_wrapper">
+	<div class="container-fluid" id="wrapper">
+		<header id="banner">
+		<div class="container">
+		<div class="hienthibanner">
+			<a class="banner" title="$site_name" href="https://pbgdpl.hanoi.gov.vn/cuoc-thi/-/asset_publisher/sxBNLsQSLyY8/content/cuoc-thi-tim-hieu-dich-vu-cong-truc-tuyen-tren-ia-ban-thanh-pho-ha-noi"></a>
+			<a class="banner2" title="$site_name" href="$site_default_url"></a>
+			</div>
+			#if ($has_navigation)
+				#parse ("$full_templates_path/navigation.vm")
+			#end
+			
+			<div class="nav-line clearfix">
+				<div class="l1 clockWrapper"><span id="current_date">&nbsp;</span><span id="current_time">&nbsp;</span></div>
+				<div class="l2">
+					#if($marqueeText)
+						<marquee scrolldelay="200">$marqueeText</marquee>
+					#end
+				</div>
+				<div class="l3">
+					<div class="search">
+						<input class="text_search" type="text" placeholder="Tìm kiếm..." id="searchInput">
+						<button class="bt_search" onclick="doSearch();"></button>
+					</div>
+				</div>
+			</div>
+			</div>
+		</header>
+	
+		<div id="content">
+		<div class="container">
+			#if ($selectable)
+				$theme.include($content_include)
+			#else
+				$portletDisplay.recycle()
+	
+				$portletDisplay.setTitle($the_title)
+	
+				$theme.wrapPortlet("portlet.vm", $content_include)
+			#end
+		</div>
+		</div>
+		<footer id="footer">
+		<div class="container">
+			<div class="bottom" style="margin-top: 6px;">
+				<table >
+					<tr>
+						<td style="width: 100%; vertical-align: top; text-align: left;">
+							<div class="bottom_title">© Bản quyền Trang thông tin: <strong>Trang th&#244;ng tin tuy&#234;n truy&#7873;n, Ph&#7893; bi&#7871;n, gi&#225;o d&#7909;c ph&#225;p lu&#7853;t TP H&#224; N&#7897;i</strong></div>
+							<div class="bottom_normal">Địa chỉ: S&#7889; 1B Tr&#7847;n Ph&#250; - Qu&#7853;n H&#224; &#272;&#244;ng - Th&#224;nh ph&#7889; H&#224; n&#7897;i</div>
+							<div class="bottom_normal">Tel: (84-24).33546151 Fax: (84-24).33546157</div>
+							</br>
+													</td>
+					</tr>
+				</table>
+			</div>	
+			</div>
+		</footer>
+		<a id="backToTop" href="#" style="display: none;"><i class="fa fa-chevron-up"></i></a>
+	</div>
+</div>
+</div>
+<div id='bttop'>Về đầu trang</div>
+<script type='text/javascript'>$(function(){$(window).scroll(function(){if($(this).scrollTop()!=0){$('#bttop').fadeIn();}else{$('#bttop').fadeOut();}});$('#bttop').click(function(){$('body,html').animate({scrollTop:0},800);});});</script>
+
+$theme.include($body_bottom_include)
+
+$theme.include($bottom_include)
+
+</body>
+
+</html>
