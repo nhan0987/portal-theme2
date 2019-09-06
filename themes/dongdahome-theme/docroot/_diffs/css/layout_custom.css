@@ -1,0 +1,85 @@
+
+.dongdahome .portlet-layout #column-1{
+	width: 233px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+	.portlet-column-content {
+		margin-right: 10px;
+		padding: 0;
+		overflow: hidden;
+	}
+}
+
+.dongdahome .portlet-layout #column-2 {
+	width: 500px !important;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+	.portlet-column-content {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+}
+
+.dongdahome .portlet-layout #column-3 {
+	width: 237px;
+	margin: 0;
+	padding: 0;
+	float: right;
+	
+	.portlet-column-content {
+		margin-left: 14px;
+		padding: 0;
+		overflow: hidden;
+	}
+}
+
+.portlet-column-content{
+	padding: 5px;
+}
+
+.portlet-content,
+.portlet-minimized .portlet-content-container {
+	padding: 12px 10px 10px;
+}
+
+.portlet-column-content-only, 
+.ltr .portlet-column-content-first, 
+.rtl .portlet-column-content-last {
+	padding-left: 0;
+}
+
+.portlet-column-content-only, 
+.ltr .portlet-column-content-last, 
+.rtl .portlet-column-content-first {
+	padding-right: 0;
+}
+
+.aui .layout_6_6 .span6 {
+	width: 50%;
+	margin: 0;
+}
+
+.aui .layout_4_4_4 .span4 {
+	width: 33.334%;
+	margin: 0;
+}
+
+.aui .layout_8_4 .span8 {
+	width: 70%;
+	margin: 0;
+}
+
+.aui .layout_8_4 .span4 {
+	width: 30%;
+	margin: 0;
+}
+
+.aui .layout_4_4_4 section.portlet,
+.mh230 {
+	min-height: 230px;
+}

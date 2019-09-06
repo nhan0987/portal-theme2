@@ -1,0 +1,1 @@
+#set ($marqueeText = $theme_display.getThemeSetting('marquee-text'))
