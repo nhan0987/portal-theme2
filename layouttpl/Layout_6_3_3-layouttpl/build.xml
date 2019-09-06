@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE project>
-
-<project name="Layout_6_3_3-layouttpl" basedir="." default="deploy">
-	<property name="plugin.version" value="1" />
-
-	<import file="../build-common-layouttpl.xml" />
-</project>

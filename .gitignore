@@ -324,3 +324,4 @@ themes/cms-general-theme/docroot/fonts/
 themes/cms-general-theme/docroot/css/
 
 themes/cms-general-theme/docroot/images/
+*.DS_Store
